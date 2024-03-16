@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.MainScreenFragment">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="301dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/sansita_extrabold"
+        android:text="Main Screen"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:background="@drawable/background_line"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintEnd_toEndOf="@+id/title"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/goChat"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/loginbutton2_background"
+        android:fontFamily="@font/sansita_extrabold"
+        android:text="Chat Screen"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineView" />
+
+    <Button
+        android:id="@+id/showInfo"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/mainscreenbutton_background"
+        android:fontFamily="@font/sansita_extrabold"
+        android:text="Show Info"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineView" />
+
+    <Button
+        android:id="@+id/goProfile"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/loginbutton2_background"
+        android:fontFamily="@font/sansita_extrabold"
+        android:text="Your Profile"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lineView" />
+
+    <TextView
+        android:id="@+id/titleEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sansita_extrabold"
+        android:text="Enable Notifications"
+        android:textColor="#BA0B0B"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="391dp"
+        android:layout_height="359dp"
+        android:background="@drawable/background_constraint2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/titleFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter a food"
+            android:textStyle="bold"
+            android:textColor="#5C5C5C"
+            android:textSize="22dp"
+            android:fontFamily="@font/sansita_extrabold"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/foodText"
+            android:layout_width="303dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="  enter a food"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_recyclerview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleFood" />
+
+        <TextView
+            android:id="@+id/titleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter a Expiration Date"
+            android:textStyle="bold"
+            android:textColor="#5C5C5C"
+            android:textSize="22dp"
+            android:fontFamily="@font/sansita_extrabold"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodText" />
+
+        <EditText
+            android:id="@+id/dateText"
+            android:layout_width="303dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="  enter a date"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_recyclerview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleDate" />
+
+        <TextView
+            android:id="@+id/titleGram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sansita_extrabold"
+            android:text="Enter the grams"
+            android:textColor="#5C5C5C"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateText" />
+
+        <EditText
+            android:id="@+id/gramText"
+            android:layout_width="303dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="  enter grams"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_recyclerview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleGram" />
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="180dp"
+            android:layout_height="41dp"
+            android:background="@drawable/loginbutton2_background"
+            android:text="Save"
+            android:fontFamily="@font/sansita_extrabold"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gramText" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

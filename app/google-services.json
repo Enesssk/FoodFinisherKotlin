@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "727195539798",
+    "project_id": "foodfinisherappkotlin",
+    "storage_bucket": "foodfinisherappkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727195539798:android:207c46cb34e0221214def7",
+        "android_client_info": {
+          "package_name": "com.example.foodfinisherapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuFIxO1dTV-T9LKf8wwlrB_9nVXfy8Y4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727195539798:android:3dd7627190d98cbc14def7",
+        "android_client_info": {
+          "package_name": "com.example.foodfinisherapp.ui.view"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuFIxO1dTV-T9LKf8wwlrB_9nVXfy8Y4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
