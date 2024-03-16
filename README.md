@@ -1,0 +1,6 @@
+![Screenshot_20240316_115357](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/f4a162a7-1806-4461-96ad-946f165060db)
+![Screenshot_20240316_115346](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/f43d5115-57f4-4d04-93ce-a53904558f86)
+![Screenshot_20240316_115244](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/fdcdd0ea-c194-4993-af22-b20a5d5e6574)
+![Screenshot_20240316_115313](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/4d2a8cc4-bdea-41d0-ba48-a405d36e252e)
+![Screenshot_20240316_115323](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/5eba9c34-a684-4bb1-987c-104d6c29ea6d)
+![Screenshot_20240316_115332](https://github.com/Enesssk/FoodFinisherKotlin/assets/140720772/787dca7f-379e-4135-bfb6-06c2adcfb325)
